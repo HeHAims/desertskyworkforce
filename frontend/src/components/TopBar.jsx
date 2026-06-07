@@ -1,4 +1,5 @@
 import { Globe2, MapPinned, Signal, Menu } from 'lucide-react';
+import { workspaceConfig } from '../data/workspaceConfig.js';
 
 export default function TopBar({ locale, copy, onLocaleChange, onTogglePulse, onToggleSidebar }) {
   return (
@@ -14,11 +15,12 @@ export default function TopBar({ locale, copy, onLocaleChange, onTogglePulse, on
             <Menu className="h-5 w-5" />
           </button>
           <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-gradient-to-br from-ember to-signal text-sm font-black text-dusk shadow-glow">
-            DS
+            {workspaceConfig.productInitials}
           </div>
           <div>
             <p className="text-xs uppercase tracking-[0.35em] text-sand-200/70">{copy.appName}</p>
             <h1 className="text-lg font-semibold text-white sm:text-xl">{copy.tagline}</h1>
+            <p className="mt-1 text-xs text-sand-200/60">{workspaceConfig.demoWorkspace} demo workspace</p>
           </div>
         </div>
 

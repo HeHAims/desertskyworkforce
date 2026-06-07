@@ -14,7 +14,8 @@ router.get('/dashboard', (request, response) => {
     tasks: state.tasks.map((task) => localizeTask(task, locale)),
     telemetry: state.telemetry,
     regulations: state.regulations,
-    inventory: state.inventory
+    inventory: state.inventory,
+    workspace: state.workspace
   });
 });
 

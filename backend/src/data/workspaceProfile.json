@@ -1,0 +1,31 @@
+{
+  "id": "demo-desert-sky",
+  "productName": "WorkFlowOS",
+  "workspaceName": "Desert Sky Vegas",
+  "industry": "Furniture, upholstery, repair, and restoration",
+  "defaultLocale": "en",
+  "modules": [
+    "jobs",
+    "milestones",
+    "inventory",
+    "roles",
+    "notifications"
+  ],
+  "roles": [
+    {
+      "key": "owner",
+      "label": "Owner",
+      "permissions": ["view_all", "manage_jobs", "manage_inventory", "manage_users", "receive_alerts"]
+    },
+    {
+      "key": "manager",
+      "label": "Manager",
+      "permissions": ["view_all", "manage_jobs", "manage_inventory", "send_alerts"]
+    },
+    {
+      "key": "employee",
+      "label": "Employee",
+      "permissions": ["view_assigned", "update_status", "report_missing_inventory"]
+    }
+  ]
+}
