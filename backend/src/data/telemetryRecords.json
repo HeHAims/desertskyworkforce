@@ -1,0 +1,35 @@
+[
+  {
+    "id": "station-001",
+    "asset": "Upholstery Bench",
+    "jobCode": "DSV-1007",
+    "location": "Fabric cut and pattern matching",
+    "progressPct": 45,
+    "materialsReadyPct": 80,
+    "nextCheck": "Owner fabric approval",
+    "risk": "monitor",
+    "capturedAt": "2026-06-06T15:40:00.000Z"
+  },
+  {
+    "id": "station-002",
+    "asset": "Wood Repair Bay",
+    "jobCode": "DSV-1011",
+    "location": "Frame clamp and stain match",
+    "progressPct": 70,
+    "materialsReadyPct": 100,
+    "nextCheck": "Milestone photo review",
+    "risk": "normal",
+    "capturedAt": "2026-06-06T15:45:00.000Z"
+  },
+  {
+    "id": "station-003",
+    "asset": "Custom Build Table",
+    "jobCode": "DSV-1014",
+    "location": "Banquette finish decision hold",
+    "progressPct": 58,
+    "materialsReadyPct": 65,
+    "nextCheck": "Client decision required",
+    "risk": "alert",
+    "capturedAt": "2026-06-06T15:55:00.000Z"
+  }
+]

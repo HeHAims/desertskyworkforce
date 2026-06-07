@@ -1,0 +1,142 @@
+[
+  {
+    "id": "task-001",
+    "status": "scheduled",
+    "priority": "critical",
+    "carrier": "Hospitality Client",
+    "route": "DSV-1007",
+    "title": {
+      "en": "Commercial booth upholstery intake",
+      "es": "Entrada de tapiceria para cabinas comerciales"
+    },
+    "summary": {
+      "en": "Confirm fabric, booth count, pickup window, and approval contact before production starts.",
+      "es": "Confirmar tela, cantidad de cabinas, horario de recogida y contacto de aprobacion antes de produccion."
+    },
+    "subtasks": [
+      {
+        "id": "task-001-a",
+        "label": {
+          "en": "Photograph current booth condition",
+          "es": "Fotografiar condicion actual de las cabinas"
+        },
+        "done": true
+      },
+      {
+        "id": "task-001-b",
+        "label": {
+          "en": "Send fabric approval to owner phone",
+          "es": "Enviar aprobacion de tela al telefono del dueno"
+        },
+        "done": false
+      }
+    ],
+    "milestone": "Fabric approval",
+    "updatedAt": "2026-06-06T14:00:00.000Z"
+  },
+  {
+    "id": "task-002",
+    "status": "in-progress",
+    "priority": "high",
+    "carrier": "Antique Collector",
+    "route": "DSV-1011",
+    "title": {
+      "en": "Antique chair frame repair",
+      "es": "Reparacion de estructura de silla antigua"
+    },
+    "summary": {
+      "en": "Repair loosened joints, preserve original character, and prepare stain match for client review.",
+      "es": "Reparar uniones flojas, preservar el caracter original y preparar igualacion de tinte para revision."
+    },
+    "subtasks": [
+      {
+        "id": "task-002-a",
+        "label": {
+          "en": "Stabilize frame",
+          "es": "Estabilizar estructura"
+        },
+        "done": true
+      },
+      {
+        "id": "task-002-b",
+        "label": {
+          "en": "Milestone photo for approval",
+          "es": "Foto de hito para aprobacion"
+        },
+        "done": false
+      }
+    ],
+    "milestone": "Frame restored",
+    "updatedAt": "2026-06-06T15:10:00.000Z"
+  },
+  {
+    "id": "task-003",
+    "status": "blocked",
+    "priority": "critical",
+    "carrier": "Custom Furniture",
+    "route": "DSV-1014",
+    "title": {
+      "en": "Custom banquette build awaiting finish decision",
+      "es": "Banqueta personalizada esperando decision de acabado"
+    },
+    "summary": {
+      "en": "Frame build is ready, but production is blocked until the finish and edge detail are approved.",
+      "es": "La estructura esta lista, pero produccion esta bloqueada hasta aprobar acabado y detalle de borde."
+    },
+    "subtasks": [
+      {
+        "id": "task-003-a",
+        "label": {
+          "en": "Upload finish options",
+          "es": "Subir opciones de acabado"
+        },
+        "done": true
+      },
+      {
+        "id": "task-003-b",
+        "label": {
+          "en": "Owner SMS escalation",
+          "es": "Escalacion SMS al dueno"
+        },
+        "done": false
+      }
+    ],
+    "milestone": "Client decision needed",
+    "updatedAt": "2026-06-06T15:35:00.000Z"
+  },
+  {
+    "id": "task-004",
+    "status": "complete",
+    "priority": "medium",
+    "carrier": "Residential Client",
+    "route": "DSV-1002",
+    "title": {
+      "en": "Sofa cushion rebuild ready for delivery",
+      "es": "Reconstruccion de cojines lista para entrega"
+    },
+    "summary": {
+      "en": "Foam replacement, seam repair, and final quality check are complete for local delivery.",
+      "es": "Reemplazo de espuma, reparacion de costuras y revision final listos para entrega local."
+    },
+    "subtasks": [
+      {
+        "id": "task-004-a",
+        "label": {
+          "en": "Final quality check",
+          "es": "Revision final de calidad"
+        },
+        "done": true
+      },
+      {
+        "id": "task-004-b",
+        "label": {
+          "en": "Schedule delivery",
+          "es": "Programar entrega"
+        },
+        "done": true
+      }
+    ],
+    "milestone": "Ready for delivery",
+    "updatedAt": "2026-06-06T16:00:00.000Z"
+  }
+]

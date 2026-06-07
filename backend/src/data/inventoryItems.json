@@ -1,0 +1,58 @@
+[
+  {
+    "id": "inv-fabric-charcoal-vinyl",
+    "name": {
+      "en": "Charcoal commercial vinyl",
+      "es": "Vinil comercial carbon"
+    },
+    "category": "Fabric",
+    "location": "Rack A",
+    "unit": "yards",
+    "onHand": 18,
+    "needed": 26,
+    "status": "low",
+    "linkedJob": "DSV-1007"
+  },
+  {
+    "id": "inv-foam-hr-3in",
+    "name": {
+      "en": "High-resilience foam 3 inch",
+      "es": "Espuma alta resistencia 3 pulgadas"
+    },
+    "category": "Foam",
+    "location": "Foam shelf",
+    "unit": "sheets",
+    "onHand": 12,
+    "needed": 8,
+    "status": "ok",
+    "linkedJob": "DSV-1002"
+  },
+  {
+    "id": "inv-webbing-roll",
+    "name": {
+      "en": "Upholstery webbing roll",
+      "es": "Rollo de cincha para tapiceria"
+    },
+    "category": "Supplies",
+    "location": "Bench 2",
+    "unit": "rolls",
+    "onHand": 1,
+    "needed": 3,
+    "status": "missing",
+    "linkedJob": "DSV-1014"
+  },
+  {
+    "id": "inv-thread-black",
+    "name": {
+      "en": "Black bonded nylon thread",
+      "es": "Hilo nylon negro"
+    },
+    "category": "Thread",
+    "location": "Sewing station",
+    "unit": "spools",
+    "onHand": 6,
+    "needed": 4,
+    "status": "ok",
+    "linkedJob": "DSV-1007"
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "name": "desertsky-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "build": "node --check src/server.js",
+    "lint": "node --check src/server.js",
+    "test:sms": "node test-dispatch-sms.js",
+    "test:send-sms": "node send-sms-now.js"
+    ,"test:call": "node send-call-now.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "twilio": "^5.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}

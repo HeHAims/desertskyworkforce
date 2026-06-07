@@ -1,0 +1,28 @@
+[
+  {
+    "id": "standard-photos",
+    "code": "PHOTO PROOF",
+    "title": {
+      "en": "Milestone photos before approval",
+      "es": "Fotos de hito antes de aprobacion"
+    },
+    "status": "active",
+    "summary": {
+      "en": "Every major customer-facing milestone should include a photo and owner notification.",
+      "es": "Cada hito importante para el cliente debe incluir foto y notificacion al dueno."
+    }
+  },
+  {
+    "id": "standard-delivery",
+    "code": "LOCAL DELIVERY",
+    "title": {
+      "en": "Free local delivery threshold",
+      "es": "Limite para entrega local gratis"
+    },
+    "status": "configured",
+    "summary": {
+      "en": "Orders over $1000 can be flagged for free local delivery workflow.",
+      "es": "Ordenes mayores de $1000 pueden marcarse para flujo de entrega local gratis."
+    }
+  }
+]
