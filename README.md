@@ -79,6 +79,16 @@ The notification line is enforced in the backend service layer so users cannot o
 
 See [docs/REUSABLE_PLATFORM_PLAN.md](docs/REUSABLE_PLATFORM_PLAN.md).
 
+## Platform Ownership Position
+
+Symbiotic AI LLC provides customized licensed versions of the WorkFlowOS business workflow platform.
+
+Customers receive the right to use their customized application for internal business operations while the account is active and in good standing. Customers own their business data, uploaded content, branding, product information, customer records, and images.
+
+Symbiotic AI LLC retains ownership of the underlying platform, source code, reusable modules, templates, architecture, developer tools, and governance technology. Customizing the platform with a customer's preferred name, branding, workflows, and content does not transfer ownership of the underlying software.
+
+See [docs/PLATFORM_LICENSE_POSITION.md](docs/PLATFORM_LICENSE_POSITION.md).
+
 Recommended next build steps:
 
 - Add Supabase project.
