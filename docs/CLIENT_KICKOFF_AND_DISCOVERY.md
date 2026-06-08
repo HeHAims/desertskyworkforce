@@ -123,14 +123,12 @@ Third-party service costs are also separate unless stated in writing. These may 
 
 ## Not Included In The First Version Unless Added In Writing
 
-- Full Monday or ClickUp clone
 - Unlimited custom features
 - Full accounting system
 - Full customer portal
 - Advanced reporting
 - Barcode scanning
 - Photo upload workflow
-- AI assistant
 - Payment processing
 - Multi-location enterprise features
 - Lifetime support

@@ -390,14 +390,12 @@ def build():
     story += [p("Not Included Unless Added In Writing", style["h1"])]
     story += bullets(
         [
-            "Full Monday or ClickUp clone",
             "Unlimited custom features",
             "Full accounting system",
             "Full customer portal",
             "Advanced reporting",
             "Barcode scanning",
             "Photo upload workflow",
-            "AI assistant",
             "Payment processing",
             "Multi-location enterprise features",
             "Lifetime support",
